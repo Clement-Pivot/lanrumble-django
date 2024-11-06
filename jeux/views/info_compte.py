@@ -166,9 +166,9 @@ def reset_password(request):
             message_html = f"<h2>Salut {user_concerned.username},</h2></br><a href='https://lanrumble.com/reset_page?token={token}'>Voici le lien de reset de ton mot de passe</a>\
                             </br>Si tu n'a pas demandé ce mail merci de me le faire savoir.</br>Des bisous, l'équipe de LANRumble."
             send_mail(
-                "[Lanrumble] Demande de réinitialisation de mot de passe.",
+                "[LANRumble] Demande de réinitialisation de mot de passe.",
                 message_txt,
-                "root@lanrumble.com",
+                "no-reply@lanrumble.com",
                 [user_concerned.email],
                 html_message=message_html,
             )
