@@ -247,6 +247,10 @@ components:
           type: integer
         online:
           type: integer
+        steam_id:
+          type: integer
+        status:
+          type: string
 
   responses:
     Tokens:
