@@ -1,0 +1,2509 @@
+[
+{
+    "model": "jeux.videogame",
+    "pk": 75,
+    "fields": {
+        "title": "G.T.F.O.",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 76,
+    "fields": {
+        "title": "Sea Of Thieves",
+        "coop": true,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 77,
+    "fields": {
+        "title": "Borderlands 3",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 78,
+    "fields": {
+        "title": "Valorant",
+        "coop": false,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 5,
+        "f2p": true,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 79,
+    "fields": {
+        "title": "League of Legends",
+        "coop": false,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 5,
+        "f2p": true,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 80,
+    "fields": {
+        "title": "Barony",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 81,
+    "fields": {
+        "title": "Civilization 6",
+        "coop": true,
+        "pvp": true,
+        "max_hot_seat_players": 8,
+        "max_online_players": 8,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 82,
+    "fields": {
+        "title": "Wakfu",
+        "coop": true,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 6,
+        "f2p": true,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 83,
+    "fields": {
+        "title": "For The King",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 1,
+        "max_online_players": 3,
+        "f2p": true,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 85,
+    "fields": {
+        "title": "Unreal Tournament 3",
+        "coop": false,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 32,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 86,
+    "fields": {
+        "title": "Halo : The Master Chief Collection",
+        "coop": true,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 2,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 87,
+    "fields": {
+        "title": "Dead By Daylight",
+        "coop": false,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 5,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 88,
+    "fields": {
+        "title": "Fall Guys",
+        "coop": false,
+        "pvp": true,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": true,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 89,
+    "fields": {
+        "title": "Gloomhaven",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 4,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 90,
+    "fields": {
+        "title": "Deep Rock Galactic",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.videogame",
+    "pk": 91,
+    "fields": {
+        "title": "Helldivers 2",
+        "coop": true,
+        "pvp": false,
+        "max_hot_seat_players": 1,
+        "max_online_players": 4,
+        "f2p": false,
+        "steam_id": 1,
+        "status": "live"
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 1,
+    "fields": {
+        "title": "The Descent",
+        "game_time": "20:00:00",
+        "max_players": 5,
+        "min_players": 2,
+        "difficulty": 5,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 2,
+    "fields": {
+        "title": "World Of Warcraft",
+        "game_time": "07:00:00",
+        "max_players": 6,
+        "min_players": 2,
+        "difficulty": 4,
+        "owned_by": [
+            9
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 3,
+    "fields": {
+        "title": "Zombicide",
+        "game_time": "02:00:00",
+        "max_players": 6,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            9
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 4,
+    "fields": {
+        "title": "Munchkin",
+        "game_time": "01:00:00",
+        "max_players": 8,
+        "min_players": 3,
+        "difficulty": 1,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 5,
+    "fields": {
+        "title": "The Witcher",
+        "game_time": "02:00:00",
+        "max_players": 4,
+        "min_players": 2,
+        "difficulty": 3,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 6,
+    "fields": {
+        "title": "7 Wonders",
+        "game_time": "00:30:00",
+        "max_players": 7,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 7,
+    "fields": {
+        "title": "Citadelles",
+        "game_time": "01:00:00",
+        "max_players": 8,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 8,
+    "fields": {
+        "title": "Donjon De Naheulbeuk",
+        "game_time": "01:00:00",
+        "max_players": 6,
+        "min_players": 3,
+        "difficulty": 2,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 9,
+    "fields": {
+        "title": "Code Name",
+        "game_time": "00:30:00",
+        "max_players": 8,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 10,
+    "fields": {
+        "title": "Loups-Garous",
+        "game_time": "00:30:00",
+        "max_players": 18,
+        "min_players": 6,
+        "difficulty": 1,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 11,
+    "fields": {
+        "title": "Mage Knight",
+        "game_time": "05:00:00",
+        "max_players": 4,
+        "min_players": 1,
+        "difficulty": 5,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 12,
+    "fields": {
+        "title": "Mysterium",
+        "game_time": "01:00:00",
+        "max_players": 7,
+        "min_players": 2,
+        "difficulty": 5,
+        "owned_by": [
+            9
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 13,
+    "fields": {
+        "title": "Seigneur Des Anneaux",
+        "game_time": "02:00:00",
+        "max_players": 5,
+        "min_players": 1,
+        "difficulty": 2,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 14,
+    "fields": {
+        "title": "Root",
+        "game_time": "01:30:00",
+        "max_players": 6,
+        "min_players": 2,
+        "difficulty": 3,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 15,
+    "fields": {
+        "title": "Small World Of Warcraft",
+        "game_time": "01:00:00",
+        "max_players": 5,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            2
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 16,
+    "fields": {
+        "title": "Le Trone De Fer",
+        "game_time": "02:00:00",
+        "max_players": 6,
+        "min_players": 3,
+        "difficulty": 3,
+        "owned_by": [
+            9
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 17,
+    "fields": {
+        "title": "Scythe",
+        "game_time": "02:00:00",
+        "max_players": 5,
+        "min_players": 1,
+        "difficulty": 3,
+        "owned_by": [
+            5
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 18,
+    "fields": {
+        "title": "Abyss",
+        "game_time": "00:45:00",
+        "max_players": 4,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            3
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 19,
+    "fields": {
+        "title": "Lama",
+        "game_time": "00:20:00",
+        "max_players": 6,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            11
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 20,
+    "fields": {
+        "title": "Saboteur",
+        "game_time": "00:30:00",
+        "max_players": 12,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 21,
+    "fields": {
+        "title": "The Crew",
+        "game_time": "00:20:00",
+        "max_players": 5,
+        "min_players": 3,
+        "difficulty": 2,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 22,
+    "fields": {
+        "title": "Exploding Kittens",
+        "game_time": "00:15:00",
+        "max_players": 10,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            11
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 23,
+    "fields": {
+        "title": "Codex Naturalis",
+        "game_time": "00:30:00",
+        "max_players": 4,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 24,
+    "fields": {
+        "title": "Munchkin Donjon",
+        "game_time": "01:30:00",
+        "max_players": 5,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 25,
+    "fields": {
+        "title": "Takenoko",
+        "game_time": "01:00:00",
+        "max_players": 5,
+        "min_players": 2,
+        "difficulty": 3,
+        "owned_by": [
+            11
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 26,
+    "fields": {
+        "title": "Pigeon Pigeon",
+        "game_time": "00:30:00",
+        "max_players": 100,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            11
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 27,
+    "fields": {
+        "title": "Carcassonne",
+        "game_time": "00:35:00",
+        "max_players": 5,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 28,
+    "fields": {
+        "title": "Unstable Unicorns",
+        "game_time": "01:00:00",
+        "max_players": 8,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            11
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 29,
+    "fields": {
+        "title": "Hanabi",
+        "game_time": "00:20:00",
+        "max_players": 5,
+        "min_players": 2,
+        "difficulty": 5,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 30,
+    "fields": {
+        "title": "Skull King",
+        "game_time": "00:30:00",
+        "max_players": 8,
+        "min_players": 2,
+        "difficulty": 2,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 31,
+    "fields": {
+        "title": "Maudit Mot Dit",
+        "game_time": "00:30:00",
+        "max_players": 6,
+        "min_players": 3,
+        "difficulty": 2,
+        "owned_by": [
+            11
+        ]
+    }
+},
+{
+    "model": "jeux.boardgame",
+    "pk": 32,
+    "fields": {
+        "title": "Gobbit",
+        "game_time": "00:15:00",
+        "max_players": 8,
+        "min_players": 2,
+        "difficulty": 1,
+        "owned_by": [
+            1
+        ]
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 561,
+    "fields": {
+        "rating": 3,
+        "videogame": 79,
+        "player": 10
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 562,
+    "fields": {
+        "rating": 4,
+        "videogame": 78,
+        "player": 10
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 563,
+    "fields": {
+        "rating": 4,
+        "videogame": 81,
+        "player": 1
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 564,
+    "fields": {
+        "rating": 2,
+        "videogame": 82,
+        "player": 10
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 565,
+    "fields": {
+        "rating": 3,
+        "videogame": 83,
+        "player": 10
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 566,
+    "fields": {
+        "rating": 3,
+        "videogame": 75,
+        "player": 10
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 568,
+    "fields": {
+        "rating": 2,
+        "videogame": 82,
+        "player": 1
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 569,
+    "fields": {
+        "rating": 3,
+        "videogame": 77,
+        "player": 10
+    }
+},
+{
+    "model": "jeux.videogamerating",
+    "pk": 571,
+    "fields": {
+        "rating": 4,
+        "videogame": 80,
+        "player": 1
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add jeu",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "add_jeu"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change jeu",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "change_jeu"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete jeu",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "delete_jeu"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view jeu",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "view_jeu"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add joueur",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "add_joueur"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change joueur",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "change_joueur"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete joueur",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "delete_joueur"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view joueur",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "view_joueur"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add jeu_ societe",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change jeu_ societe",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete jeu_ societe",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view jeu_ societe",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add vote_ jeu_ video",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change vote_ jeu_ video",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete vote_ jeu_ video",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view vote_ jeu_ video",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add token reset password",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change token reset password",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete token reset password",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view token reset password",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add blacklisted token",
+        "content_type": [
+            "token_blacklist",
+            "blacklistedtoken"
+        ],
+        "codename": "add_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change blacklisted token",
+        "content_type": [
+            "token_blacklist",
+            "blacklistedtoken"
+        ],
+        "codename": "change_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete blacklisted token",
+        "content_type": [
+            "token_blacklist",
+            "blacklistedtoken"
+        ],
+        "codename": "delete_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view blacklisted token",
+        "content_type": [
+            "token_blacklist",
+            "blacklistedtoken"
+        ],
+        "codename": "view_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add outstanding token",
+        "content_type": [
+            "token_blacklist",
+            "outstandingtoken"
+        ],
+        "codename": "add_outstandingtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change outstanding token",
+        "content_type": [
+            "token_blacklist",
+            "outstandingtoken"
+        ],
+        "codename": "change_outstandingtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete outstanding token",
+        "content_type": [
+            "token_blacklist",
+            "outstandingtoken"
+        ],
+        "codename": "delete_outstandingtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view outstanding token",
+        "content_type": [
+            "token_blacklist",
+            "outstandingtoken"
+        ],
+        "codename": "view_outstandingtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add vote_ jeu_ video",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "add_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change vote_ jeu_ video",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "change_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete vote_ jeu_ video",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "delete_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view vote_ jeu_ video",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "view_vote_jeu_video"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add token reset password",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "add_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change token reset password",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "change_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete token reset password",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "delete_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view token reset password",
+        "content_type": [
+            "jeux",
+            "tokenresetpassword"
+        ],
+        "codename": "view_tokenresetpassword"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add jeu_ societe",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "add_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change jeu_ societe",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "change_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete jeu_ societe",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "delete_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view jeu_ societe",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "view_jeu_societe"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add videogame",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "add_videogame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change videogame",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "change_videogame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete videogame",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "delete_videogame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view videogame",
+        "content_type": [
+            "jeux",
+            "videogame"
+        ],
+        "codename": "view_videogame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add boardgame",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "add_boardgame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change boardgame",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "change_boardgame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete boardgame",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "delete_boardgame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view boardgame",
+        "content_type": [
+            "jeux",
+            "boardgame"
+        ],
+        "codename": "view_boardgame"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add player",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "add_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change player",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "change_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete player",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "delete_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view player",
+        "content_type": [
+            "jeux",
+            "player"
+        ],
+        "codename": "view_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add videogame rating",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "add_videogamerating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change videogame rating",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "change_videogamerating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete videogame rating",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "delete_videogamerating"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view videogame rating",
+        "content_type": [
+            "jeux",
+            "videogamerating"
+        ],
+        "codename": "view_videogamerating"
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "guest",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2018-10-31T03:27:01Z",
+        "is_superuser": true,
+        "username": "malfeitor",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": false,
+        "date_joined": "2018-10-26T17:35:29Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2024-11-06T22:10:56.289Z",
+        "is_superuser": true,
+        "username": "Malfeisoif",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-10-26T17:35:59Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2023-10-03T20:47:58.644Z",
+        "is_superuser": false,
+        "username": "Kilionaire",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-26T17:36:11.299Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2019-11-09T12:06:48.250Z",
+        "is_superuser": false,
+        "username": "Nabody",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-31T05:46:44.570Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2018-12-03T20:56:14.389Z",
+        "is_superuser": false,
+        "username": "Chignox",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-31T09:22:08.854Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2020-05-03T01:23:18.481Z",
+        "is_superuser": false,
+        "username": "Narileas",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-31T09:22:23.413Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2018-12-01T19:36:46.796Z",
+        "is_superuser": false,
+        "username": "Skoll",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-11-02T20:27:40.534Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2018-11-02T22:20:48.679Z",
+        "is_superuser": false,
+        "username": "Bigline",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-11-02T22:19:09.784Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2019-05-04T14:42:41.636Z",
+        "is_superuser": false,
+        "username": "Ludvigar",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-11-03T23:38:05.501Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2020-11-08T22:36:51.523Z",
+        "is_superuser": false,
+        "username": "Oregon",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-11-05T19:11:24.224Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2021-07-20T01:45:19.910Z",
+        "is_superuser": false,
+        "username": "Kiwikia",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-07-20T01:44:21Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "",
+        "last_login": "2024-09-04T13:08:44.009Z",
+        "is_superuser": false,
+        "username": "test",
+        "first_name": "",
+        "last_name": "",
+        "email": "test@test.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-07-31T17:01:36Z",
+        "groups": [
+            [
+                "guest"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "Malfeisoif"
+        ],
+        "color_body_background": "#000000",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#8b0305",
+        "color_nav_text": "#ffffff",
+        "background_file": "user_2/dragon_debian.png",
+        "friends": [
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "videogames_list": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "Kilionaire"
+        ],
+        "color_body_background": "#000000",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "videogames_list": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "Nabody"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "videogames_list": [
+            78,
+            79,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "Chignox"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12
+        ],
+        "videogames_list": [
+            78,
+            79,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "Narileas"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "videogames_list": [
+            78,
+            79,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "Skoll"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            10,
+            12
+        ],
+        "videogames_list": [
+            78,
+            79,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "Bigline"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            12
+        ],
+        "videogames_list": [
+            78,
+            79,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "Ludvigar"
+        ],
+        "color_body_background": "#000000",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            10,
+            12
+        ],
+        "videogames_list": [
+            78,
+            79,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "Oregon"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12
+        ],
+        "videogames_list": [
+            75,
+            77,
+            78,
+            79,
+            81,
+            82,
+            83,
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 11,
+    "fields": {
+        "user": [
+            "Kiwikia"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            6,
+            10,
+            12
+        ],
+        "videogames_list": [
+            88
+        ]
+    }
+},
+{
+    "model": "jeux.player",
+    "pk": 12,
+    "fields": {
+        "user": [
+            "test"
+        ],
+        "color_body_background": "#222222",
+        "color_body_text": "#ffffff",
+        "color_nav_background": "#111111",
+        "color_nav_link_active": "#ff0000",
+        "color_nav_link_hover": "#ffffff",
+        "color_nav_link": "#990000",
+        "color_nav_text": "#ffffff",
+        "background_file": "",
+        "friends": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "videogames_list": []
+    }
+}
+]
