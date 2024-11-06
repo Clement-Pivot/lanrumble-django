@@ -5,6 +5,8 @@ from .models import Videogame, Player, Boardgame, VideogameRating, TokenResetPas
 class VideogameAdmin(admin.ModelAdmin):
     list_display = (
         "title",
+        "status",
+        "steam_id",
         "coop",
         "pvp",
         "f2p",
