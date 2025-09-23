@@ -6,12 +6,12 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('jeux', '0003_alter_tokenresetpassword_token'),
+        ("jeux", "0003_alter_tokenresetpassword_token"),
     ]
 
     operations = [
         migrations.RenameModel(
-            old_name='Jeu',
-            new_name='Videogame',
+            old_name="Jeu",
+            new_name="Videogame",
         ),
     ]

@@ -8,20 +8,20 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('jeux', '0004_rename_jeu_videogame'),
+        ("jeux", "0004_rename_jeu_videogame"),
     ]
 
     operations = [
         migrations.RenameModel(
-            old_name='Jeu_Societe',
-            new_name='Boardgame',
+            old_name="Jeu_Societe",
+            new_name="Boardgame",
         ),
         migrations.RenameModel(
-            old_name='Joueur',
-            new_name='Player',
+            old_name="Joueur",
+            new_name="Player",
         ),
         migrations.RenameModel(
-            old_name='Vote_Jeu_Video',
-            new_name='VideogameRating',
+            old_name="Vote_Jeu_Video",
+            new_name="VideogameRating",
         ),
     ]

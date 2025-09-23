@@ -7,18 +7,26 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('jeux', '0006_auto_20241018_0841'),
+        ("jeux", "0006_auto_20241018_0841"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='videogamerating',
-            name='player',
-            field=models.ForeignKey(db_column='joueur_concerne', on_delete=django.db.models.deletion.CASCADE, to='jeux.player'),
+            model_name="videogamerating",
+            name="player",
+            field=models.ForeignKey(
+                db_column="joueur_concerne",
+                on_delete=django.db.models.deletion.CASCADE,
+                to="jeux.player",
+            ),
         ),
         migrations.AlterField(
-            model_name='videogamerating',
-            name='videogame',
-            field=models.ForeignKey(db_column='jeu_concerne', on_delete=django.db.models.deletion.CASCADE, to='jeux.videogame'),
+            model_name="videogamerating",
+            name="videogame",
+            field=models.ForeignKey(
+                db_column="jeu_concerne",
+                on_delete=django.db.models.deletion.CASCADE,
+                to="jeux.videogame",
+            ),
         ),
     ]

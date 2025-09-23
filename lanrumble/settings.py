@@ -32,22 +32,22 @@ DEBUG = os.environ.get("DEBUG", False)
 ALLOWED_HOSTS = ["*"]
 
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': os.environ.get("LOGLEVEL", "INFO"),
-            'class':'logging.handlers.RotatingFileHandler',
-            'maxBytes': 1024*10242*15, #15MB
-            'backupCount': 10,
-            'filename': '/var/log/django-debug.log',
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "file": {
+            "level": os.environ.get("LOGLEVEL", "INFO"),
+            "class": "logging.handlers.RotatingFileHandler",
+            "maxBytes": 1024 * 10242 * 15,  # 15MB
+            "backupCount": 10,
+            "filename": "/var/log/django-debug.log",
         },
     },
-    'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': os.environ.get("LOGLEVEL", "INFO"),
-            'propagate': True,
+    "loggers": {
+        "django": {
+            "handlers": ["file"],
+            "level": os.environ.get("LOGLEVEL", "INFO"),
+            "propagate": True,
         },
     },
 }
@@ -108,15 +108,15 @@ WSGI_APPLICATION = "lanrumble.wsgi.application"
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 DATABASES = {
     "default": {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME' : os.environ["POSTGRES_DATABASE"],
-        'USER' : os.environ["POSTGRES_USER"],
-        'PASSWORD' : os.environ["POSTGRES_PASSWORD"],
-        'HOST' : os.environ["POSTGRES_HOST"],
-        'PORT': '5432'
-   }
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.environ["POSTGRES_DATABASE"],
+        "USER": os.environ["POSTGRES_USER"],
+        "PASSWORD": os.environ["POSTGRES_PASSWORD"],
+        "HOST": os.environ["POSTGRES_HOST"],
+        "PORT": "5432",
+    }
 }
-DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
 
 # Password validation

@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('jeux', '0008_rename_utilisateur_player_user'),
+        ("jeux", "0008_rename_utilisateur_player_user"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='videogame',
-            name='status',
-            field=models.CharField(default='live', max_length=100),
+            model_name="videogame",
+            name="status",
+            field=models.CharField(default="live", max_length=100),
         ),
         migrations.AddField(
-            model_name='videogame',
-            name='steam_id',
+            model_name="videogame",
+            name="steam_id",
             field=models.BigIntegerField(default=1),
         ),
     ]
