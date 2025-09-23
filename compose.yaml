@@ -3,7 +3,12 @@ services:
     build: .
     image: armitage1/lanrumble-django
     restart: always
-    command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --listen 0.0.0.0:3000 --wait-for-client -m daphne -e ssl:8000:privateKey=ca.key:certKey=ca.crt lanrumble.asgi:application"]
+    command:
+      [
+        "sh",
+        "-c",
+        "pip install debugpy -t /tmp && python /tmp/debugpy --listen 0.0.0.0:3000 --wait-for-client -m daphne -e ssl:8000:privateKey=ca.key:certKey=ca.crt lanrumble.asgi:application",
+      ]
     depends_on:
       - db
     ports:
@@ -19,22 +24,22 @@ services:
       - source: key
         target: /app/ca.key
     environment:
-      SECRET_KEY : ${SECRET_KEY}
-      EMAIL_HOST_PASSWORD : ${EMAIL_HOST_PASSWORD}
-      DEBUG : ${DEBUG}
-      POSTGRES_DATABASE : django
-      POSTGRES_USER : django
-      POSTGRES_PASSWORD : ${POSTGRES_PASSWORD}
-      POSTGRES_HOST : db
+      SECRET_KEY: ${SECRET_KEY}
+      EMAIL_HOST_PASSWORD: ${EMAIL_HOST_PASSWORD}
+      DEBUG: ${DEBUG}
+      POSTGRES_DATABASE: django
+      POSTGRES_USER: django
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: db
 
   db:
     image: postgres:17-alpine
     restart: always
     environment:
-      POSTGRES_ROOT_PASSWORD : ${POSTGRES_ROOT_PASSWORD}
-      POSTGRES_DATABASE : django
-      POSTGRES_USER : django
-      POSTGRES_PASSWORD : ${POSTGRES_PASSWORD}
+      POSTGRES_ROOT_PASSWORD: ${POSTGRES_ROOT_PASSWORD}
+      POSTGRES_DATABASE: django
+      POSTGRES_USER: django
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - db_data:/var/lib/postgresql/data
 
