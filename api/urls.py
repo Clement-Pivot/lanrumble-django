@@ -4,7 +4,7 @@ from . import views
 
 app_name = "api"
 urlpatterns = [
-    path("videogames", views.VideogamesView.as_view(), name="video_games"),
+    path("videogame", views.VideogamesView.as_view(), name="video_games"),
     path("videogame/<id>", views.VideogameView.as_view(), name="video_game"),
     path(
         "user/<user_id>/videogames",
