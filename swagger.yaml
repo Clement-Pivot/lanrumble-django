@@ -19,15 +19,15 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Login'
+              $ref: "#/components/schemas/Login"
       responses:
-        '200':
-          $ref: '#/components/responses/Tokens'
-        '400':
-          $ref: '#/components/responses/400'
-        '401':
-          $ref: '#/components/responses/401'
-        '500':
+        "200":
+          $ref: "#/components/responses/Tokens"
+        "400":
+          $ref: "#/components/responses/400"
+        "401":
+          $ref: "#/components/responses/401"
+        "500":
           description: Internal Server Error
   /token/refresh/:
     post:
@@ -44,13 +44,13 @@ paths:
                 refresh:
                   type: string
       responses:
-        '200':
-          $ref: '#/components/responses/Tokens'
-        '400':
-          $ref: '#/components/responses/400'
-        '401':
-          $ref: '#/components/responses/401'
-        '500':
+        "200":
+          $ref: "#/components/responses/Tokens"
+        "400":
+          $ref: "#/components/responses/400"
+        "401":
+          $ref: "#/components/responses/401"
+        "500":
           description: Internal Server Error
   /logout/:
     post:
@@ -69,13 +69,13 @@ paths:
                 refresh_token:
                   type: string
       responses:
-        '205':
+        "205":
           description: Logout Successfull
-        '400':
-          $ref: '#/components/responses/400'
-        '401':
-          $ref: '#/components/responses/401'
-        '500':
+        "400":
+          $ref: "#/components/responses/400"
+        "401":
+          $ref: "#/components/responses/401"
+        "500":
           description: Internal server error
   /videogame/{id}:
     get:
@@ -93,15 +93,15 @@ paths:
           required: true
           description: Videogame's ID
       responses:
-        '200':
+        "200":
           description: Videogame fetched
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Videogame'
-        '404':
+                $ref: "#/components/schemas/Videogame"
+        "404":
           description: Videogame not found
-        '500':
+        "500":
           description: Internal server error
   /videogame/{id}/title:
     get:
@@ -119,15 +119,15 @@ paths:
           required: true
           description: Videogame's ID
       responses:
-        '200':
+        "200":
           description: Videogame fetched
           content:
             application/json:
               schema:
                 type: string
-        '404':
+        "404":
           description: Videogame not found
-        '500':
+        "500":
           description: Internal server error
   /videogames:
     get:
@@ -136,7 +136,7 @@ paths:
       summary: All videogames
       description: Show all games
       responses:
-        '200':
+        "200":
           description: Fetch successfull
           content:
             application/json:
@@ -144,7 +144,7 @@ paths:
                 type: array
                 items:
                   type: string
-        '500':
+        "500":
           description: Internal server error
   /user/{userId}/friends:
     get:
@@ -162,17 +162,17 @@ paths:
           schema:
             type: integer
       responses:
-        '200':
+        "200":
           description: Fetch successfull
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Friend'
-        '401':
-          $ref: '#/components/responses/401'
-        '500':
+                  $ref: "#/components/schemas/Friend"
+        "401":
+          $ref: "#/components/responses/401"
+        "500":
           description: Internal server error
   /user/{user_id}/videogames:
     get:
@@ -190,7 +190,7 @@ paths:
           schema:
             type: integer
       responses:
-        '200':
+        "200":
           description: Fetch successfull
           content:
             application/json:
@@ -202,9 +202,9 @@ paths:
                       type: integer
                     title:
                       type: string
-        '401':
-          $ref: '#/components/responses/401'
-        '500':
+        "401":
+          $ref: "#/components/responses/401"
+        "500":
           description: Internal server error
 
 components:
