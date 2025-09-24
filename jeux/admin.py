@@ -1,5 +1,11 @@
 from django.contrib import admin
-from .models import Videogame, Player, Boardgame, VideogameRating, TokenResetPassword
+from .models import (
+    Videogame,
+    Player,
+    Boardgame,
+    VideogameRating,
+    TokenResetPassword,
+)
 
 
 class VideogameAdmin(admin.ModelAdmin):

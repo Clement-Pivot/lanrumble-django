@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Player, Videogame, Boardgame, VideogameRating
+from . import Videogame
 
 
-class JeuSerializer(serializers.ModelSerializer):
+class VideogameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Videogame
         fields = (
