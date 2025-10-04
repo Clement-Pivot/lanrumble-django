@@ -70,7 +70,7 @@ class Migration(migrations.Migration):
                 (
                     "background_file",
                     models.FileField(
-                        blank=True, upload_to=jeux.models.user_directory_path
+                        blank=True, upload_to=jeux.models.Player.user_directory_path
                     ),
                 ),
                 (

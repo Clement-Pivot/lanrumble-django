@@ -25,3 +25,6 @@ class Player(models.Model):
 
     def __str__(self):
         return self.user.username
+
+    def user_directory_path(*args):
+        return user_directory_path(*args)
