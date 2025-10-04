@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 from django.core.management.base import BaseCommand, CommandError
-
 from jeux.models import Videogame, Player, VideogameRating
 from django.db import transaction
 
