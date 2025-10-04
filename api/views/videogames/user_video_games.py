@@ -24,13 +24,18 @@ class UserVideogamesView(APIView):
             }
 
         try:
-            current_user = Player.objects.get(pk=request.user.id)
+            current_user = Player.objects.prefetch_related("user").get(
+                pk=request.user.id
+            )
+            friends = current_user.friends.exclude(user__groups__name="guest")
 
-            if request.user.id != user_id and user_id not in current_user.friends:
+            if str(request.user.id) != user_id and not user_id in [
+                str(x.id) for x in friends
+            ]:
                 raise HttpResponse("Unauthorized", status=401)
 
             player = Player.objects.get(pk=user_id)
             all_games = player.videogames_list.all()
         except ObjectDoesNotExist:
             raise Http404
-        return Response(list(map(extract_data, all_games)))
+        return Response([extract_data(x) for x in all_games])
