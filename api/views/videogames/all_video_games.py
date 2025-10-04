@@ -1,26 +1,14 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from jeux.models import Videogame
+from jeux.models import Videogame, VideogameSerializer
 
 
 class VideogamesView(APIView):
-    def get(self, request):
+    def get(self, _):
         all_games = Videogame.objects.all()
-        return Response(
-            list(
-                map(
-                    lambda jeu: {
-                        "name": jeu.title,
-                        "id": jeu.pk,
-                        "coop": jeu.coop,
-                        "pvp": jeu.pvp,
-                        "max_hot_seat_players": jeu.max_hot_seat_players,
-                        "max_online_players": jeu.max_online_players,
-                        "f2p": jeu.f2p,
-                        "steam_id": jeu.steam_id,
-                        "status": jeu.status,
-                    },
-                    all_games,
-                )
-            )
-        )
+        return Response([VideogameSerializer(jeu).data for jeu in all_games])
+
+    def post(self, request):
+        data = VideogameSerializer(data=request.data)
+        if data.is_valid(raise_exception=True):
+            data.save()
