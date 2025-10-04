@@ -7,18 +7,15 @@ import jeux.models.player
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('jeux', '0009_videogame_status_videogame_steam_id'),
+        ("jeux", "0009_videogame_status_videogame_steam_id"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='player',
-            name='background_file',
-            field=models.FileField(blank=True, upload_to=jeux.models.player.user_directory_path),
-        ),
-        migrations.AlterField(
-            model_name='videogame',
-            name='steam_id',
-            field=models.BigIntegerField(blank=True, default=None, unique=True),
+            model_name="player",
+            name="background_file",
+            field=models.FileField(
+                blank=True, upload_to=jeux.models.player.user_directory_path
+            ),
         ),
     ]
